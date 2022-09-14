@@ -1,0 +1,11 @@
+main {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    max-width: 960px;
+    margin: auto;
+}
+.topo {
+    background-color: lightgray;
+    text-align: center;
+}

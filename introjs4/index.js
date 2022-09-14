@@ -6,12 +6,11 @@ app.get("/", function(req,res){
         msg: "Eu não acredito"
     });
 })
-
 app.get("/date", function(req,res){
     res.json({
         date: new Date()
     });
-})
+});
 
 app.get("/infinity", function(req,res){
     let i = 0;
@@ -19,5 +18,7 @@ app.get("/infinity", function(req,res){
         console.log(i++);
     }
 });
+
+
 
 app.listen(8080);
